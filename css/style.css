@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+
+}
+body{
+	color: white;
+	background-color: black;
+	}
+	body nav{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2rem;
+			}
+		body nav a{
+			margin: 0px 110px;
+			list-style: none;
+			text-decoration: none;
+					}
+				nav ul{
+				display: inline-block;
+				}
+					nav	ul li{
+					list-style: none;
+					display: inline-block;
+					margin:10px 6px;
+					font-family: 'Montserrat', sans-serif;
+					color: white;
+					font-size: 1.9rem;
+							}
+						nav ul li a{
+								text-decoration:none ;
+								font-family: 'Montserrat', sans-serif;
+						}
+						nav ul li a:hover{
+							color yellow
+							font-weight: 600;
+						}
+							h1{
+								margin:50px 515px;
+								padding:0 200px;
+								font-family: 'Montserrat', sans-serif;
+								font-size: 3.7rem;
+							}
+
+									h2 a{
+										margin: 50px 515px;
+										padding: 0 200px ;
+										font-family: 'Montserrat', sans-serif;
+										font-size: 2rem;
+										text-decoration:none;
+										list-style:none;
+								}
+
+.conteiner-nardo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}		
+
+		ul li{
+			font-family: 'Montserrat', sans-serif;
+			text-decoration: none;
+			list-style: none;	
+			color: white;
+		}
+				ul.slider{
+					margin: auto;
+					display: block;
+					position: relative;
+					width: 1333px;
+					height: 720px;
+				}
+
+					ul.slider li{
+						position: absolute;
+						left: 0;
+						top: 0;
+						opacity: 0;
+						width: inherit;
+						height: inherit;
+						transition:opacity .5s;
+						margin: center;
+					}
+
+						ul.slider li img{
+							width: 1280px;
+							height: 720px;
+							object-fit: cover;
+							margin: auto;
+							display: block;
+						}
+
+							ul.slider li:first-child{
+								opacity: 1;
+							}
+
+							ul.slider li:target{
+								opacity: 1;
+							}
+
+	.menu{
+	  text-align: center;
+	  margin-top: 20px;
+	  margin-left:auto;
+		}
+
+		.menu li{
+		  display: inline-block;
+		  text-align: center;
+				}
+
+			.menu li a{
+			  display: inline-block;
+			  text-decoration: none;
+			  background-color: white;
+			  padding: 15px;
+			  width: 2px;
+			  height: 2px;
+			  border-radius: 100%;
+						}
+footer a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	text-decoration: none;
+	list-style: none;
+		}
+
+		footer p{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 1.5rem;
+			text-decoration: none;
+			list-style: none;
+			}
+
+.text-alert{
+			color: white;
+			text-align: center;
+
+}	
+
+.text-titulo{
+	text-align: center;
+	font-size: 36px;
+	padding: -15px;
+}
+.text-back{
+	text-align: center;
+	font-size: 36px;
+	padding: -15px;
+	background-color: white;
+	color: darkred;
+}
+
+.text-pegassi{
+	margin-top: -10px;
+	border-bottom-color: white;
+	border-bottom: solid;
+	display: flex;
+	justify-content: space-between;	
+	padding-top: 15px;
+	padding-left: 210px;
+	
+}
+.text-tittle{
+	height: 34%;
+	margin-top: 50px;
+}
+.logo-pegassi{
+	display: flex;
+	justify-content:flex-end;
+	margin-bottom: 30px;
+}
+
+/*footer*/
+.text-center{
+	border-top-color: white;
+	border-top: solid;
+	justify-content: space-between;
+	display: flex;
+	padding: 50px;
+}
+.redes-sociales{
+	display: flex;
+	justify-content:flex-end;
+	padding: 0px 10px;
+}
+.copyright{
+	display: flex;
+	justify-content: flex-start;
+}
+.text-footer{
+			display: flex;
+			flex-direction: row;
+			color: white;
+			text-align: center;
+
+}	
+
+
+/*---------- Nuestros Vehiculos---------- */
+.titulo-tipo{
+	text-align: center;
+	font-size: 45px;
+}
+.titulo-depor{
+	text-align: center;
+font-size: 30px;
+background-color: grey;
+
+}
+
+.contenedor-a{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	font-size: 17px;
+	text-align: center;
+}
+.contenedor-b{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 17px;
+	text-align: center;
+}
+
+.texto-a{
+	line-height: 1.4;
+	text-align: center;
+	width: 60%;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+}
+.texto-espe{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.texto-img{
+	width: 100%;
+	height: auto;
+	margin-right: 50px;
+}
+.texto-ima{
+	width: 40%;
+	height: 40%;
+	margin-left: 50px;
+}
+.texto-image{
+	width: 40%;
+	height: 40%;
+	margin-right: 50px;
+}
+
+/*---------- Adquiera su Pegassi---------- */
+.header-adquiera{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 15px;
+}
+.text-main{
+	border-top: dashed;
+	border-top-color: white;
+	border-top-width: 2px;
+	display: flex;
+	flex-direction: column;
+}
+.text-map{
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.text-servi{
+	text-align: center;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.section-h1{
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+}
+.section-h4{
+	font-size: 15px;
+	text-align: center;
+	font-style: italic;
+}
+.text-div{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.text-art{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	margin-left:50px ;
+	margin-right: 130px;
+}
+
+.text-pa{
+	font-size: 12px;
+}
