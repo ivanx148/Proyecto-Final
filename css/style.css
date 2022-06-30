@@ -167,6 +167,7 @@ footer a{
 	
 }
 .text-tittle{
+	color: #000000;
 	height: 34%;
 	margin-top: 50px;
 }
@@ -315,4 +316,9 @@ background-color: grey;
 
 .text-pa{
 	font-size: 12px;
+}
+
+/*---------- ANIMACIONES ---------- */
+.banner {
+    background:linear-gradient(to bottom,whitesmoke,grey,black)
 }
