@@ -36,10 +36,12 @@ body{
 								text-decoration:none ;
 								font-family: 'Montserrat', sans-serif;
 						}
-						nav ul li a:hover{
-							color yellow
-							font-weight: 600;
-						}
+					nav ul li a:hover{
+						color: darkred;
+                		font-weight: 600;
+
+					}
+
 							h1{
 								margin:50px 515px;
 								padding:0 200px;
@@ -321,4 +323,14 @@ background-color: grey;
 /*---------- ANIMACIONES ---------- */
 .banner {
     background:linear-gradient(to bottom,whitesmoke,grey,black)
+}
+
+.autos:hover {
+    transform: scale(1.2);
+}
+
+.transform:hover{
+    transform: translate(10px, -20px);
+    cursor: pointer;
+    transition: transform 1s;
 }
