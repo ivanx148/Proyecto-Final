@@ -1,139 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pegassi Argentina</title>
-	<link rel="shortcout icon" href="../img/logo.png" width="26.75" height="33.75">
-<!-- mi css -->
-	<link rel="stylesheet" href="../css/style.css">
-</head>
-	<body>
-		<nav class="banner">
-			<div class="text-pegassi">
-			<h2 class="text-tittle">
-			PEGASSI </h2>
-			<a href="../index.html" class="logo-pegassi">
-			 	<img src="../img/logo.png" width="107" height="135"  alt="Logo Pegassi Argentina">
-			</a>
-			</div>
-				<ul class="text-titulo">
-					<li>
-						<a href="../views/nuestros-vehiculos.html">
-							<span class="text-alert">
-						Nuestros Vehículos</a>
-							</span>
-					</li>
-					<li>
-						<a href="../views/adquiera-su-pegassi.html">
-							<span class="text-alert">
-						Adquiera su Pegassi</a>
-							</span>
-					</li>
-			  		<li>
-			  			<a href="../views/servicios-al-cliente.html">
-			  				<span class="text-alert">
-			  			Servicios al Cliente</a>
-			  				</span>
-			  		</li>
-			  		<li>
-			  			<a href="../views/contacto.html">
-			  				<span class="text-alert">
-			  			Contacto</a>
-			  				</span>
-			  		</li>
-				</ul>
-		</nav>
-			<h1>Sus preguntas
-			</h1>
-				<h2>
-					<p>¿Tiene alguna pregunta?
-					<br>
-					Por favor, háganosla llegar.
-					</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Pegassi Argentina</title>
+    <link rel="shortcout icon" href="../img/logo.png" width="26.75" height="33.75">
+  </head>
+  <body>
+    <!-- INICIA LA NAV -->
+    <nav class="navbar navbar-expand-lg  sticky-top navbar-light bg-light banner" id="sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/logo.png" class="pegassi"  alt="Logo Pegassi Argentina">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../views/nuestros-vehiculos.html">Nuestros Vehiculos</a>
+           </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../views/adquiera-su-pegassi.html">Adquiera su Pegassi</a>
+           </li>
+        <li class="nav-item">
+             <a class="nav-link" href="../views/servicios-al-cliente.html">Servicios al Cliente</a>
+           </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../views/contacto.html">Contacto</a>
+           </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- FIN NAV -->
+			<Header class="text-pregunta">
+				<div id="selectores">
+    		<h1 class="container-fluid ">Sus Preguntas</h1>
+				</div>
+			</Header>
+
+			<h2 class="pregunta"> ¿Tiene alguna pregunta? Por favor, háganosla llegar.
+					
 				</h2>
-		</header>
-    		<main>
-				<section>
-					<form action="hola.php">
-						<fieldset>
-							<legend>Datos Personales</legend>
-								<label for="nombre">Nombre:</label>
-									<input type="text" id="nombre">
-									<br>
-								<label for="apellido">Apellido:</label>
-									<input type="text" id="apellido">
-									<br>
-								<label for="email">Email:</label>
-									<input type="text" id="email">
-									<br>
-								<label for="telefono">Teléfono:</label>
-									<input type="text" id="telefono">
-									<br>
-								<label for="provincia">Provincia:</label>
-										<select name="" id="provincia">
-											<option value="Seleccione una provincia...">Seleccione una provincia...</option>
-											<option value="Buenos Aires">Buenos Aires</option>
-											<option value="CABA">CABA</option>
-											<option value="Catamarca">Catamarca</option>
-											<option value="Chaco">Chaco</option>
-											<option value="Chubut">Chubut</option>
-											<option value="Cordoba">Cordoba</option>
-											<option value="Corrientes">Corrientes</option>
-											<option value="Entre Rios">Entre Rios</option>
-											<option value="Formosa">Formosa</option>
-											<option value="Jujuy">Jujuy</option>
-											<option value="La Pampa">La Pampa</option>
-											<option value="La Rioja">La Rioja</option>
-											<option value="Mendoza">Mendoza</option>
-											<option value="Misiones">Misiones</option>
-											<option value="Neuquen">Neuquen</option>
-											<option value="Rio Negro">Rio Negro</option>
-											<option value="Salta">Salta</option>
-											<option value="San Juan">San Juan</option>
-											<option value="San Luis">San Luis</option>
-											<option value="Santa Cruz">Santa Cruz</option>
-											<option value="Santa Fe">Santa Fe</option>
-											<option value="Santiago del Estero">Santiago del Estero</option>
-											<option value="Tierra del Fuego">Tierra del Fuego</option>
-											<option value="Tucuman">Tucuman</option>
-										</select>
-										<br>
-								<label for="localidad">Localidad</label>
-									<input type="text" id="localidad">
-						</fieldset>
-						<fieldset>
-							<legend>Mis peticiones y consultas</legend>
-								<p>Tema</p>
-										<select name="" id="opcion">
-											<option value="Elija una opcion">Elija una opcion...</option>
-											<option value="Reclamo">Reclamo</option>
-											<option value="Automoviles:Quiero recibir mas informacion">Automoviles:Quiero recibir mas informacion</option>
-											<option value="Recursos humanos">Recursos humanos</option>
-											<option value="Otro">Otro</option>
-										</select>
-						</fieldset>
-								<label for="mensaje">Deje su mensaje</label>
-								<br>
-									<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-			   						 <br>
-			    					<input type="reset" value="Cancelar">
-			    					<input type="submit" value="Enviar">
-					</form>
-				</section>
-			</main>
-			<br>
-				<footer class="text-center">
+			</div>
+				<main class="d-flex justify-content-center">
+		<form class="row g-3 forms d-flex justify-content-center">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Apellido</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Apellido">
+  </div>
+  <div class="col-md-6">
+    <label for="inputAddress" class="form-label">Mail</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="email@gmail.com">
+  </div>
+  <div class="col-md-6">
+    <label for="inputAddress2" class="form-label">Telefono</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Sin 0 ni 15">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Provincia</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Localidad</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-12">
+    <label for="inputZip" class="form-label">Deje aqui su duda o consulta</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        No soy un robot
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
+</main>
+				
+				<!-- Option 1: Bootstrap Bundle with Popper -->
+    				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+				<footer class="text-center container-fluid footer">
 				<div class="copyright">
 					<p> 	
 					2022 - Pegassi Argentina - Todos los derechos reservados.
 					</p>
 			      </div>
-				<a href="../index.html" class="text-footer"> 
-					<span>
-					Volver al inicio
-					<span/>
-				</a>
 				<div class="redes-sociales">
 					<a href="https://www.facebook.com/Ivanx148/"target="_blank">
 						<img src="../img/facebook.png" width="50" height="50" alt="Facebook Pegassi Argentina">
